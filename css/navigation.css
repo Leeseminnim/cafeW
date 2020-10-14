@@ -1,9 +1,8 @@
 /* 메인 메뉴 */
-
 .navigation__menu-list{
   width: 1440px;
   margin: 0 auto;
-  padding: 47px 120px;  
+  padding: 47px 120px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -14,7 +13,6 @@
   font-weight: 700;
   font-family: var(--font-en-sanfrancisco);
 }
-
 .navigation__sub-menu-list{
   margin: 9px 0 0 0;
 }

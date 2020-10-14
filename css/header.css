@@ -1,5 +1,5 @@
 .header{
-  border-bottom: 1px solid var(--parmary-border-color);
+  border-bottom: 1px solid var(--primary-border-color);
 }
 /* 헤더 컨테이너 */
 .header__container{
@@ -36,12 +36,10 @@
   font-family: var(--font-en-sanfrancisco);
 }
 
-.header__member-item{
+.header__member-item:nth-child(n+2){
   margin-left: 30px;
 }
-.header__member-item:first-child{
-  margin-left: 0;
-}
+
 
 /* 검색 폼 */
 .search{
@@ -49,7 +47,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  border-bottom: 1px solid var(--parmary-border-color);
+  border-bottom: 1px solid var(--primary-border-color);
 }
 .search__input-container{
   flex-grow: 1;
@@ -60,7 +58,7 @@
   padding: 0 0 0 0.5em;
   border: 0;
   width: 100%;
-  color: var(--parmary-color);
+  color: var(--primary-color);
 }
 .search__button-container button{
   background-color: transparent;
