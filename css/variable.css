@@ -1,0 +1,13 @@
+:root {
+  --parmary-bg-color: #282725;
+  --season-bg-color: #F3D6B0;
+  --notice-bg-color: rgba(226,119,98,0.9);
+  --season-text-color: #a37356;
+  --season-text-color2 : #e27762;
+  --lecture-dark-color : #282725;
+  --parmary-color: #FFFCF9;
+  --parmary-border-color: rgba(255, 252, 249, 0.5);
+  --season-border-color: rgba(163, 155, 86, 0.5);
+  --text-normal: 1.6rem;
+  --font-en-sanfrancisco: "San Francisco";
+}
