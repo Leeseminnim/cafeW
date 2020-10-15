@@ -57,3 +57,66 @@
   left: 20px;
   bottom: 20px;
 }
+
+/* cafeW 추천 강좌 */
+
+.favorite{
+  background-color: pink;
+}
+
+/* cafeW 추천 강좌 리스트 컨테이너 */
+
+.favorite__container{
+  width: 436px;
+  padding: 30px 19px;
+  color: var(--primary-bg-color3);
+  position: relative;
+  background-color: #fff;
+}
+
+.favorite__title{
+  margin: 0 0 24px 0;
+  font-size: 2.2rem;
+}
+
+.favorite__lecture-list{
+margin: 0;
+}
+
+.favorite__lecture-item{
+margin: 10px 0 0 0;
+font-size: 1.6rem;
+line-height: 1.4;
+display: flex;
+flex-flow: row nowrap;
+align-items: center;
+}
+
+.favorite__lecture-item a{
+  flex-grow: 1;
+  margin-right: 15px;
+
+}
+
+.favorite__lecture-item em{
+  width: 28px;
+  height: 28px;
+  background-image: url(./../images/icon-favorite-sprite.svg);
+  background-repeat: no-repeat;
+}
+
+.favorite__lecture-item .new{
+  background-position: 0 -28px;
+}
+.favorite__lecture-item .down{
+  background-position: 0 -56px;
+}
+.favorite__lecture-item .stop{
+  background-position: 0 -84px;
+}
+
+.favorite__more{
+  position: absolute;
+  top: 34px;
+  right: 24px;
+}
