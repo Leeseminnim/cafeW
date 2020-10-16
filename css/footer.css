@@ -1,3 +1,7 @@
+.footer-container .layout-width{
+  width: auto;
+}
+
 /* 푸터 */
 .footer{
   display: flex;
@@ -13,6 +17,7 @@
 .footer__container{
   width: 100%;
   border-bottom: 1px solid var(--primary-border-color);
+  border-top: 1px solid var(--primary-border-color);
   order: -1;
 }
 .footer__guide-list{
